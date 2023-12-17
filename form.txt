@@ -1,0 +1,82 @@
+<html>
+<head>
+<body>
+
+<br>
+<br>
+<form style="border: solid 2px black;">
+<center><h2>แบบฟอร์มสมัครงาน</h2></center>
+ <br>
+ <br>
+	<label>ชื่อ-นามสกุล</label>
+	<input type="text">
+ <br>
+ <br>
+	<label>ตำแหน่งที่ต้องการ</label>
+	<input type="text">
+	<label>เงินเดือน</label>
+	<input type="text">บาท/เดือน
+ <br>
+ <br>
+	<label>ประวัติส่วนตัว</label>
+ <br>
+ <br>
+	<label>ที่อยู่</label>
+	<textarea rows="10" cols="30">
+	</textarea>
+ <br>
+ <br>
+	<label>เบอร์โทรศัพท์</label>
+	<input type="text">
+	<label>E-mail</label>
+	<input type="text">
+ <br>
+ <br>
+	<label>วันเกิด</label>
+	<input type="date">
+ <br>
+ <br>
+	<label>เลขที่บัตรประชาชน</label>
+	<input type="text">
+ <br>
+ <br>
+	<label>เพศ</label>
+	<input type="radio" name="t"><label>ชาย</label>
+	<input type="radio" name="t"><label>หญิง</label>
+ <br>
+ <br>
+	<label>รูปภาพ</label>
+	<input type="file">
+ <br>
+ <br>
+ 	<label>ส่วนสูง</label>
+	<input type="text">
+	<label>น้ำหนัก</label>
+	<input type="text">
+ <br>
+ <br>
+	<label>สถานภาพ</label>
+	<input type="radio" name="s"><label>โสด</label>
+	<input type="radio" name="s"><label>แต่งงาน</label>
+	<input type="radio" name="s"><label>หม้าย</label>
+	<input type="radio" name="s"><label>แยกกัน</label>
+ <br>
+ <br>	
+	<label>ภาวะทางทหาร</label>
+	<input type="radio" name="s"><label>ได้รับการยกเว้น</label>
+	<input type="radio" name="s"><label>ปลดเป็นทหารกองหนุน</label>
+	<input type="radio" name="s"><label>ยังไม่ได้เกณฑ์</label>
+ <br>
+ <br>	
+	<input type="submit" value="ตกลง">
+	<input type="submit" value="ล้างข้อมูล">
+ <br>
+ <br>
+ <br>
+
+	
+</form>
+
+</body>
+</head>
+</html>
